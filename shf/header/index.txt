@@ -1,0 +1,16 @@
+<header>
+	<div class="sh-wrapper" id="sh-wrapper">
+		<div class="header">
+			<h1><?= esc_html__('Home', 'shf'); ?></h1>
+			<p><?= esc_html__('My supercool header!', 'shf'); ?></p>
+			<div class="menu">
+				<?php
+					wp_nav_menu(array(
+						'theme_location' => 'header-menu',
+						'walker' => new SHF_Menu()
+					));
+				?>
+			</div>
+		</div>
+	</div>
+</header>

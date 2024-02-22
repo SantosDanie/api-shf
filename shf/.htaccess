@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "Privacy Mode"
+# AuthUserFile C:/Users/santos/Desktop/php/api-shf/shf/.htpasswd
+AuthUserFile ./shf/shf_access.txt
+require valid-user

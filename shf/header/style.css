@@ -1,0 +1,28 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Arial;
+}
+
+.header {
+	padding: 60px;
+	text-align: center;
+	background: #572020;
+	color: white;
+	font-size: 30px;
+}
+
+.content	{ padding:20px;}
+.menu		{ font-size: 18px; }
+.menu ul	{
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.menu li	{ display: block; }
+.menu a {
+	margin: 0 10px;
+	color: white;
+}
